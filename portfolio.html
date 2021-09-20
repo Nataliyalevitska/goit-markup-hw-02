@@ -1,32 +1,169 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--Зміст-->
     <header>
-      <a href="/">WebStudio</a>
-      <nav>
-        <!--навігація на інші сторінки-->
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
-        </ul>
-      </nav>
-      <ul>
-        <!--посилання на адр.ел.почти-->
-        <li><a href="mailto:info@devstudio">info@devstudio.com</a></li>
-        <!--посилання на тел.номер-->
-        <li><a href="">+38 096 111 11 11</a></li>
-      </ul>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <a href="/">WebStudio</a>
+            <nav>
+              <!--навігація на інші сторінки-->
+              <ul>
+                <li><a href="./index.html">Студия</a></li>
+                <li><a href="">Портфолио</a></li>
+                <li><a href="">Контакты</a></li>
+              </ul>
+            </nav>
+            <ul>
+              <!--посилання на адр.ел.почти-->
+              <li><a href="mailto:info@devstudio">info@devstudio.com</a></li>
+              <!--посилання на тел.номер-->
+              <li><a href="">+38 096 111 11 11</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
-    portfolio
+    <!--button-->
+    <section class="text-center container">
+      <ul>
+        <li><button type="">Все</button></li>
+        <li><button type="">Веб-сайты</button></li>
+        <li><button type="">Приложения</button></li>
+        <li><button type="">Дизайн</button></li>
+        <li><button type="">Маркетинг</button></li>
+      </ul>
+    </section>
+    <!--photo-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+            <div class="card-header">
+              <img src="./images/g1.jpg" alt="веб сайт" width="370" />
+            </div>
+            <div class="card-body">
+              <h3>Технокряк</h3>
+              <p>Веб сайт</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card">
+            <div class="card-header">
+              <img src="./images/g2.jpg" alt="Дизайн" width="370" />
+            </div>
+            <div class="card-body">
+              <h3>Постер New Orlean vs Golden Star</h3>
+              <p>Дизайн</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card">
+            <div class="card-header">
+              <img src="./images/g3.jpg" alt="Приложение" width="370" />
+            </div>
+            <div class="card-body">
+              <h3>Ресторан SeaFood</h3>
+              <p>Приложение</p>
+            </div>
+          </div>
+        </div>
+
+    <div class="row">
+      <div class="col-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="./images/g4.png" alt="Маркетинг" width="370" />
+          </div>
+          <div class="card-body">
+            <h3>Проект Prime</h3>
+            <p>Маркетинг</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="./images/g5.jpg" alt="Приложение" width="370" />
+          </div>
+          <div class="card-body">
+            <h3>Проект Boxes</h3>
+            <p>Приложение</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="./images/g6.jpg" alt="Веб-сайт" width="370" />
+          </div>
+          <div class="card-body">
+            <h3>Inspiration has no Borders</h3>
+            <p>Веб-сайт</p>
+          </div>
+        </div>
+      </div>
+
+    <div class="row">
+      <div class="col-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="./images/g7.jpg" alt="Дизайн" width="370" />
+          </div>
+          <div class="card-body">
+            <h3>Издание Limited Edition</h3>
+            <p>Дизайн</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="./images/g8.jpg" alt="Маркетинг" width="370" />
+          </div>
+          <div class="card-body">
+            <h3>Проект LAB</h3>
+            <p>Маркетинг</p>
+          </div>
+        </div>
+      </div>
+
+    <div class="row">
+      <div class="col-4">
+        <div class="card">
+          <div class="card-header">
+            <img src="./images/g9.jpg" alt="Приложение" width="370" />
+          </div>
+          <div class="card-body">
+            <h3>Growing Business</h3>
+            <p>Приложение</p>
+          </div>
+        </div>
+      </div>
+  </div>
+    </body>
     <footer>
       <address class="font-normal">
         <a href="/">WebStudio</a>
