@@ -1,13 +1,15 @@
+html {
+  font-size: 16px;
+}
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
 }
 button,
 p {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
-  line-height: 2.6em;
+  line-height: 1.625em;
   text-align: center;
 }
 .container {
@@ -34,12 +36,9 @@ p {
   justify-content: center;
 }
 .card h3 {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
-  line-height: 6em;
-  width: 322px;
-  height: 36px;
+  line-height: 2em;
 }
 button {
   cursor: pointer;
@@ -65,18 +64,11 @@ ul {
 .ml-8 {
   margin-left: 8px;
 }
-. {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.6em;
+.grey {
   color: #757575;
 }
 p {
-  font-family: "Roboto";
   font-size: 16px;
-  line-height: 3em;
+  line-height: 1.875em;
   color: #757575;
-  width: 322px;
-  height: 30px;
 }
