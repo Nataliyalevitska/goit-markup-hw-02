@@ -1,8 +1,19 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
+}
+button,
+p {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2.6em;
+  text-align: center;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
 }
-
 .row {
   margin: 0 -15px;
   display: flex;
@@ -18,18 +29,54 @@
 .text-center {
   text-align: center;
 }
-.d-flex {
+.d-flex-justify-center {
   display: flex;
-}
-.body {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  color: #212121;
-  line-height: 1.875rem;
+  justify-content: center;
 }
 .card h3 {
+  font-family: "Roboto";
   font-weight: 700;
+  font-size: 18px;
+  line-height: 6em;
+  width: 322px;
+  height: 36px;
 }
 button {
   cursor: pointer;
+  border: none;
+  padding: 6px 22px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+button:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.link {
+  color: #212121;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+ul {
+  list-style-type: none;
+}
+.ml-8 {
+  margin-left: 8px;
+}
+. {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.6em;
+  color: #757575;
+}
+p {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 3em;
+  color: #757575;
+  width: 322px;
+  height: 30px;
 }
