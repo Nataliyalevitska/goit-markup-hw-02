@@ -1,5 +1,6 @@
-html {
-  font-size: 16px;
+:root {
+  --blue: #2196f3;
+  --grey: #757575;
 }
 body {
   font-family: "Roboto", "Raleway", sans-serif;
@@ -10,32 +11,30 @@ h3 {
   font-size: 18px;
   line-height: 2em;
 }
-button,
-p {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625em;
-}
 button {
   cursor: pointer;
   border: none;
   padding: 6px 22px;
   background-color: #f5f4fa;
   border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625em;
 }
-button:hover {
+button:hover,
+button:focus {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--blue);
 }
-.link {
+a {
   color: #212121;
 }
-.link:hover,
-.link:focus {
-  color: #2196f3;
+a:hover,
+a:focus {
+  color: var(--blue);
 }
 .grey {
-  color: #757575;
+  color: var(--grey);
 }
 ul {
   list-style-type: none;
@@ -43,5 +42,5 @@ ul {
 p {
   font-size: 16px;
   line-height: 1.875em;
-  color: #757575;
+  color: var(--grey);
 }
