@@ -1,15 +1,36 @@
 :root {
   --blue: #2196f3;
   --grey: #757575;
+  --white: #ffffff;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
+.logo {
+  color: var(--blue);
+}
+.logo-link {
+  text-transform: capitalize;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19em;
+}
+.studio {
+  color: var(--white);
+  text-transform: capitalize;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19em;
+  text-decoration: none;
+}
+.studio:hover,
+.studio:focus {
+  color: var(--blue);
+}
 .button {
   cursor: pointer;
   border: none;
-  padding: 6px 22px;
   background-color: #f5f4fa;
   border-radius: 4px;
   font-weight: 500;
@@ -18,11 +39,18 @@ body {
 }
 .button:hover,
 .button:focus {
-  color: #ffffff;
+  color: var(--white);
   background-color: var(--blue);
+}
+.button-style {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87em;
 }
 .link {
   color: #212121;
+  text-decoration: none;
 }
 .link:hover,
 .link:focus {
@@ -30,9 +58,12 @@ body {
 }
 .grey {
   color: var(--grey);
+  font-size: 14px;
+  line-height: 1.71em;
 }
 .list {
   list-style-type: none;
+  font-style: normal;
 }
 .section-title {
   font-weight: 700;
@@ -42,5 +73,44 @@ body {
 .section-post-title {
   font-size: 16px;
   line-height: 1.875em;
+  color: var(--grey);
+}
+.white {
+  color: var(--white);
+  font-size: 14px;
+  line-height: 1.71em;
+}
+.foter {
+  width: 1200px;
+  background-color: #2f303a;
+}
+.nave {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36em;
+}
+.ash-post {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14em;
+}
+.ash-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16em;
+}
+.name-spesh {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18em;
+}
+.name-id {
+  font-size: 16px;
+  line-height: 1.18em;
   color: var(--grey);
 }
